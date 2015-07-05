@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title> Sai Krishna Podduturi </title>
+
+		<meta name="description" content="Homework1" />
+
+		<meta name="author" content="Sai Krishna Podduturi" />
+
+		<meta name="keywords" content="Web Programming Languages, Homework1" />
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+		<link rel="stylesheet" href="firststyle.css" type="text/css" />
+		<style>
+			#dragdrop
+			{width:355px;height:200px;padding:10px;border:1px solid #aaaaaa;}
+		</style>
+	</head>
+
+	<body>
+
+		<nav>
+	
+			<ul>
+				<li><a href="#" selected>Member Nations:</a></li>
+				<li><a href="#">Spain</a></li>
+				<li><a href="#">England</a></li>
+				<li><a href="#">Germany</a></li>
+				<li><a href="#">Italy</a></li>
+			</ul>
+		</nav>
+
+		<section id="intro">
+
+			<header>
+				<h2>Soccer in Europe</h2>
+				<p>Soccer is a sport played between two teams of eleven players with a spherical ball. It is played by 250 million players in over 200 countries, making it the world's most popular sport. The game is played on a rectangular field with a goal at each end. The object of the game is to score by getting the ball into the opposing goal.</p>
+
+				<img src="Images/fbd.jpg" alt="football">
+			</header>
+		</section>
+
+		<div id="content">
+			<div id="mainContent">
+				<section>
+					<article class="blogPost">
+						<header>
+							<h2>The Beautiful Game</h2>
+							<p>Posted on <time datetime="2015-02-08 20:00"> February 8th, 2015 </time> by Sai Krishna Podduturi - <a href="http://cs.utdallas.edu/">UTD CS Department</a> </p>
+						</header>
+						<div>
+							<p>In Soccer, the goalkeepers are the only players allowed to touch the ball with their hands or arms while it is in play and then only in their penalty area. Outfield players mostly use their feet to strike or pass the ball, but may use their head or torso to strike the ball instead. The team that scores the most goals by the end of the match wins. If the score is level at the end of the game, either a draw is declared or the game goes into extra time and/or a penalty shootout depending on the format of the competition. The Laws of the Game were originally codified in England by The Football Association in 1863. Association football is governed internationally by the International Federation of Association Football (FIFA; French: Federation Internationale de Football Association) which organises a World Cup every four years.</p>
+							<figure>
+								<img src="Images/wc14.jpg" size= alt="Germany">
+								<figcaption><a href="http://en.wikipedia.org/wiki/2014_FIFA_World_Cup">FIFA World Cup 2014</a> Winners: <a href="http://www.cbsnews.com/news/world-cup-2014-germany-vs-argentina-final/">Germany</a></figcaption>
+							</figure>
+
+							<h3>Most valuable teams in the world: </h3>
+							<figure>
+								<img src="Images/mvst.jpg" alt="Teams" usemap="#teams">
+								<map name="teams">
+									<area shape="rect" coords="0,0,107,160" alt="Manchester United" href="http://www.manutd.com/">
+									<area shape="rect" coords="107,0,209,160" alt="Real Madrid" href="http://www.realmadrid.com/en">
+									<area shape="rect" coords="209,72,285,160" alt="Barcelona" href="http://www.fcbarcelona.com/">
+									<area shape="rect" coords="209,0,285,72" alt="Arsenal" href="http://www.arsenal.com/home">
+								</map>
+								<figcaption> You can click on each logo to find out more about the respective clubs</figcaption>
+							</figure>
+							<table>
+								<tr>
+									<th>Team</th>
+									<th>Current Value</th>
+									<th>Revenue(2012-13)</th>
+									<th>Operating Income(2012-13)</th>
+								</tr>
+								<tr>
+									<td>Real Madrid</td>
+									<td>$3.44 bil.</td>
+									<td>$675 mil. </td>
+									<td>$172 mil. </td>
+								</tr>
+								<tr>
+									<td>Barcelona</td>
+									<td>$3.2 bil.</td>
+									<td>$627 mil. </td>
+									<td>$154 mil. </td>
+								</tr>
+								<tr>
+									<td>Manchester United</td>
+									<td>$2.81 bil.</td>
+									<td>$551 mil. </td>
+									<td>$165 mil. </td>
+								</tr>
+								<tr>
+									<td>Bayern Munich</td>
+									<td>$1.85 bil.</td>
+									<td>$561 mil. </td>
+									<td>$122 mil. </td>
+								</tr>
+								<tr>
+									<td>Arsenal</td>
+									<td>$1.33 bil.</td>
+									<td>$370 mil. </td>
+									<td>$38 mil. </td>
+								</tr>
+							</table>
+						</div>
+					</article>
+				</section>
+			</div>
+			<aside>
+				<section>
+					<ul>
+
+						<li class="selected"><a href="#">Most Notable Competitions: </a>
+						<ol type="1">
+							<li>
+								<dl>
+									<dt><a href="http://www.uefa.com/uefachampionsleague/">Champions League</a></dt>
+									<dd> - This is the league of champions! </dd>
+								</dl>
+							</li>
+							<li><a href="http://www.ligabbva.com/">Liga BBVA</a></li>
+							<li><a href="http://www.premierleague.com/en-gb.html">Premier League</a></li>
+							<li><a href="http://www.bundesliga.com/en/">Bundesliga</a></li>
+							<li><a href="http://www.legaseriea.it/en/">Serie A</a></li>
+						</ol></li>
+					</ul>
+
+				</section>
+				<section>
+					<form name="merchandise">
+						<p>You can purchase merchandise of one of these clubs:</p>
+						<select name="Club">
+							<option value="Real Madrid">Real Madrid</option>
+							<option value="Barcelona">Barcelona</option>
+							<option value="Manchester United">Manchester United</option>
+							<option value="Arsenal">Arsenal</option>
+						</select>
+						<br />
+						Select the merchandise you wish to buy: <br />
+						<input type="checkbox" name="merchandise" value="Shirts" />Shirts<br />
+						<input type="checkbox" name="merchandise" value="Scarfs" />Scarfs<br />
+						<input type="checkbox" name="merchandise" value="Posters" />Posters<br />
+						<br />
+						Please enter your name: <br />
+						<input type="text" name="name" maxlength="10" required placeholder="Name" /><br />
+						<br />
+						Please select your gender: <br />
+						<input type="radio" name="sex" value="male" checked /> Male <br />
+						<input type="radio" name="sex" value="female" /> Female <br />
+						<br />
+						Please enter your age: <br />
+						<input type="number" size="2" name="age" min="12" max="99" value="21" /><br />
+						<br />
+						Please enter your email id: <br />
+						<input type="email" name="email" required placeholder="Enter a valid Email address" /> <br />
+						<br />
+						<button type="reset" value="Reset" id="submit">Reset</button>
+						<button type="submit" value="Submit" id="submit">Submit</button><br />
+					</form>
+				</section>
+				<section>
+					<div id="dragdrop" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					<script>
+						function allowDrop(ev) {
+						    ev.preventDefault();
+						}
+	
+						function drag(ev) {
+						    ev.dataTransfer.setData("text", ev.target.id);
+						}
+	
+						function drop(ev) {
+						    ev.preventDefault();	
+						    var data = ev.dataTransfer.getData("text");
+						    ev.target.appendChild(document.getElementById(data));
+						}
+					</script>
+					<br />
+					<img id="drag1" src="Images/fbd.jpg" draggable="true" ondragstart="drag(event)" width="355" height="200">
+				</section>
+				<section id="comments">
+					<header>
+						<h3>Comments</h3>
+					</header>
+					<article>
+						<header>
+							<a href="#">John Doe</a> on <time datetime="2015-02-08 22:35:20">Feb 8th 2015 at 22:35</time> 
+						</header>
+						<p> Good to know!! </p>
+					</article>
+				</section>
+			</aside>
+		</div>
+		<footer>
+
+			<div>
+				<article class="blogPost">
+					<section id="kyl">
+						<p>You can find out your geolocation using the following button. <br /> <br />Know your location: <br /></p>
+						<button onclick="coordinates()" id="location">Click here to find out!!</button>
+						<p id="demo"></p>
+						<script>
+							var x = document.getElementById("demo");
+							function coordinates() {
+							    if (navigator.geolocation) {
+							        navigator.geolocation.getCurrentPosition(showPosition);
+							    } else { 
+							        x.innerHTML = "Geolocation is not supported by this browser.";
+							    }
+							}
+							function showPosition(position) {
+							    x.innerHTML = "Latitude: " + position.coords.latitude + 
+							    "<br>Longitude: " + position.coords.longitude;	
+							}
+						</script>
+					</section>
+					<section id="storage">
+						<script>
+							function Counter() {
+							    if(typeof(Storage) !== "undefined") {
+							        if (sessionStorage.clickcount) {
+							            sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+							        } else {
+						        	    sessionStorage.clickcount = 1;
+							        }
+							        document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+							    } else {
+							        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+							    }
+							}
+						</script>
+						<p>Click the button to see the counter increase.</p>
+						<p>Close the browser tab (or window), and try again, and the counter is reset.</p>			
+						<p><button onclick="Counter()" type="button" id="counter">Click me!</button>
+						<p id="result"></p>
+					</section>
+				</article>
+			</div>
+		</footer>
+
+	</body>
+
+</html>
